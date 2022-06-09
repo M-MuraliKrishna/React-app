@@ -29,8 +29,8 @@ const handleSubmit = (e) => {
   const formData = new FormData(e.target);
   console.log(formData)
   
+  // axios.post('http://127.0.0.1:5000/predict', formData)
   axios.post('https://counterfeitcurrencydetection.herokuapp.com/predict', formData)
-  // axios.post('https://currency-detection.herokuapp.com/predict', formData)
   .then(function (response) {
     console.log(response);
     setResult(response.data)
