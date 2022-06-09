@@ -2,7 +2,7 @@
   "name": "final",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://currency-detection.herokuapp.com/",
+  "proxy": "https://counterfeitcurrencydetection.herokuapp.com/",
   "engines": {
     "node": "16.14.2"
   },
